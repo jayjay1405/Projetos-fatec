@@ -1,0 +1,84 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f5f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .topo {
+      background-color: #00bfa6;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .topo h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5em;
+    }
+
+    .topo p {
+      font-size: 1.1em;
+    }
+
+    .conteudo {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .bloco {
+      margin-bottom: 30px;
+    }
+
+    .bloco h2 {
+      color: #00796b;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+
+    .bloco p, .bloco ul {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    .bloco ul {
+      padding-left: 20px;
+    }
+
+    .bloco li {
+      margin-bottom: 6px;
+    }
+
+    .rodape {
+      background-color: #e0f2f1;
+      color: #555;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    h3{
+       color: #00bfa6;
+    }
+
+    img{
+width: 800px;
+height: 600px;
+
+    }
+.bloco img{
+  width: 800px;
+height: 200px;
+}
+    .topo img{
+ background-image: url(..img/logodjk.png);
+ background-position: top right;
+ float: right;
+width: 100px;
+height: auto;
+
+    }
+  
+   
