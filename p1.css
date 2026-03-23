@@ -1,0 +1,164 @@
+*{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0a8346;
+  color: white;
+  padding: 15px;
+ 
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.navegacao {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navegacao img {
+  margin-right: 20px;
+}
+
+.links {
+  display: inline-block;
+}
+
+.links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #ffd700;
+}
+
+section {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+section h2 {
+  color: #0a8346;
+  margin-bottom: 30px;
+}
+
+
+.sobre {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sobre img {
+  width: 250px;
+  float: left;
+  border-radius: 12px;
+  border: 4px solid #0a8346;
+  margin-bottom: 20px;
+}
+
+.disciplinas {
+  text-align: center;
+}
+
+.disciplina {
+  background: #0a8346;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+}
+
+.disciplina:hover {
+  background: #5eaf7d;
+}
+
+
+.trabalhos {
+  text-align: center;
+}
+
+.trabalho {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+}
+
+.trabalho:hover {
+  transform: scale(1.05);
+}
+
+.trabalho img {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+.trabalho h3 {
+  margin: 15px;
+  color: #0a8346;
+}
+
+.trabalho p {
+  margin: 0 15px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+footer {
+  background: #0a8346;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer img {
+  width: 100px;
+  margin-bottom: 15px;
+  float: left;
+}
+footer .insta{
+  float: right;
+  width: 50px;
+  height: auto;
+}
+footer a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .fateclins {
+  color: #fff; 
+  transition: .5s;
+}
+
+footer .fateclins:hover{
+ color:  rgb(137, 208, 236);
+}

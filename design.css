@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #0a8346;
+    color: white;
+    padding: 15px;
+   
+  }
+  
+  header .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .navegacao {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navegacao img {
+    margin-right: 20px;
+  }
+  
+  .links {
+    display: inline-block;
+  }
+  
+  .links a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .links a:hover {
+    color: #ffd700;
+  }
+  
+section {
+    padding: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+h1 {
+    color: #0a8346;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.imagem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px; 
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer {
+  background: #0a8346;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer img {
+  width: 100px;
+  margin-bottom: 15px;
+  float: left;
+}
+footer .insta{
+  float: right;
+  width: 50px;
+  height: auto;
+}
+footer a {
+  color: #ffd700;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .fateclins {
+    color: #fff; 
+    transition: .5s;
+  }
+  
+  footer .fateclins:hover{
+   color:  rgb(137, 208, 236);
+  }
